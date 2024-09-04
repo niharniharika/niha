@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-shopping-pattern-design_23-2149628702.jpg?w=740&t=st=1721281651~exp=1721282251~hmac=88ce6ecd862c5539ea5229950ae4d73c6e2c099f55add2bd1240b70d15e45567");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hornav{
+    overflow: hidden;
+    background-color: rgb(162, 151, 144) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+   }
+.hornav a{
+    font-size: large;
+    font-style: italic;
+    text-decoration: none;
+    padding: 10px 100px 20px 100px;
+    display: block;
+    text-align: center;
+    float:left;
+    color: black;
+    border-radius: 30%;
+}
+.hornav a:hover{
+    font-size: large;
+    font-style: italic;
+    background-image: url("flower2.webp");
+    color:rgb(158, 158, 138)
+}
+.vernav{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    display: block;
+}
+.vernav a{
+    font-size: large;
+    font-style: italic;
+    display: block;
+    text-decoration: none;
+    padding: 40px;
+    color: rgb(17, 16, 16);
+
+    
+}
+.vernav a:hover{
+    background-image: url("flower1.webp");
+    color:rgb(9, 8, 8);
+}
+.image{
+    border:10px solid transparent;
+    padding: 15px;
+   margin-left: 1l15px;
+    margin-top: 50px;
+    text-align: center;
+}
+.image1 a{
+    text-shadow: 3px 1px 4px ;
+    text-decoration: none;
+    font-style: oblique;
+    font: size 100px;;
+    color:rgb(156, 30, 93);
+    margin-left: 100px;
+}
+.img1{ 
+    margin-right: 100px;
+    margin-top: 80px;
+    padding: 10px;
+    border:10px solid transparent;
+}
